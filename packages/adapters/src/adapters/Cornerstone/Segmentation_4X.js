@@ -1386,10 +1386,12 @@ export function getImageIdOfSourceImageBySourceImageSequence(
 
     if (ReferencedFrameNumber !== undefined) {
         if (baseImageId.includes("frames/")) {
-            return baseImageId.replace(
-                /frames\/\d+/,
-                `frames/${ReferencedFrameNumber}`
-            );
+            // OPH Fix: Return only frames/1, only support single frame
+            // return baseImageId.replace(
+            //     /frames\/\d+/,
+            //     `frames/${ReferencedFrameNumber}`
+            // );
+            return baseImageId.replace(/frames\/\d+/, `frames/1`);
         } else if (baseImageId.includes("frame=")) {
             return baseImageId.replace(
                 /frame=\d+/,
@@ -1397,7 +1399,9 @@ export function getImageIdOfSourceImageBySourceImageSequence(
             );
         } else {
             if (baseImageId.includes("wadors:")) {
-                return `${baseImageId}/frames/${ReferencedFrameNumber}`;
+                // OPH Fix: Return only frames/1, only support single frame
+                // return `${baseImageId}/frames/${ReferencedFrameNumber}`;
+                return `${baseImageId}/frames/1`;
             } else {
                 return `${baseImageId}?frame=${ReferencedFrameNumber - 1}`;
             }
