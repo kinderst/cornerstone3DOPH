@@ -59,5 +59,6 @@
     "@cornerstonejs/core": "^3.30.3",
     "@kitware/vtk.js": "32.12.1",
     "@qtimoph/tools": "^3.30.3"
-  }
+  },
+  "gitHead": "d83f66bb76c1b75495db30f396d9fc5c23f154e2"
 }

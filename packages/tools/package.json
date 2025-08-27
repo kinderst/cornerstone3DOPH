@@ -1,6 +1,6 @@
 {
   "name": "@qtimoph/tools",
-  "version": "3.30.3-oph.0",
+  "version": "3.30.3-oph.1",
   "description": "Cornerstone3D Tools",
   "types": "./dist/esm/index.d.ts",
   "module": "./dist/esm/index.js",
@@ -84,6 +84,9 @@
       "types": "./dist/esm/version.d.ts"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prebuild": "node ../../scripts/generate-version.js ./",
     "build:esm": "tsc --project ./tsconfig.json",
@@ -126,5 +129,6 @@
   "funding": {
     "type": "individual",
     "url": "https://ohif.org/donate"
-  }
+  },
+  "gitHead": "d83f66bb76c1b75495db30f396d9fc5c23f154e2"
 }
