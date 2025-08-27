@@ -1,6 +1,6 @@
 {
     "name": "@qtimoph/adapters",
-    "version": "3.30.3-oph.1",
+    "version": "3.30.3-oph.2",
     "description": "Adapters for Cornerstone3D to/from formats including DICOM SR and others",
     "module": "./dist/esm/index.js",
     "types": "./dist/esm/index.d.ts",
@@ -91,7 +91,7 @@
     },
     "peerDependencies": {
         "@cornerstonejs/core": "^3.30.3",
-        "@qtimoph/tools": "^3.30.3"
+        "@qtimoph/tools": "^3.30.3-oph.1"
     },
-    "gitHead": "d83f66bb76c1b75495db30f396d9fc5c23f154e2"
+    "gitHead": "b50518dd9e58c5ed969848578f7b659978b88948"
 }

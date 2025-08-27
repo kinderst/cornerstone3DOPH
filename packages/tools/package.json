@@ -1,6 +1,6 @@
 {
   "name": "@qtimoph/tools",
-  "version": "3.30.3-oph.1",
+  "version": "3.30.3-oph.2",
   "description": "Cornerstone3D Tools",
   "types": "./dist/esm/index.d.ts",
   "module": "./dist/esm/index.js",
@@ -130,5 +130,5 @@
     "type": "individual",
     "url": "https://ohif.org/donate"
   },
-  "gitHead": "d83f66bb76c1b75495db30f396d9fc5c23f154e2"
+  "gitHead": "b50518dd9e58c5ed969848578f7b659978b88948"
 }
