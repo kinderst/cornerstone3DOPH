@@ -7,8 +7,8 @@ import {
   eventTarget,
 } from '@cornerstonejs/core';
 import { setTitleAndDescription } from '../../../../utils/demo/helpers';
-import { init as csToolsInit } from '@cornerstonejs/tools';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import { init as csToolsInit } from '@qtimoph/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 geometryLoader.setOptions({
   beforeSend(xhr) {

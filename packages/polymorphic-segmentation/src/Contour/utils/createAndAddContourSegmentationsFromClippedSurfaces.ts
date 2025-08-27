@@ -2,7 +2,7 @@ import { utilities, type Types } from '@cornerstonejs/core';
 import {
   PlanarFreehandContourSegmentationTool,
   annotation,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 import type { RawContourData } from '../contourComputationStrategies';
 import { vec3 } from 'gl-matrix';
 

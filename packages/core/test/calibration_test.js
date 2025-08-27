@@ -25,7 +25,7 @@
 //   ToolGroupManager,
 //   SynchronizerManager,
 //   utilities as toolsUtilities,
-// } from '@cornerstonejs/tools';
+// } from '@qtimoph/tools';
 
 // const { calibrateImageSpacing } = toolsUtilities;
 // const { Events } = Enums;

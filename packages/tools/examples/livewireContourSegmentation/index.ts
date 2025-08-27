@@ -12,8 +12,8 @@ import {
   setCtTransferFunctionForVolumeActor,
   addManipulationBindings,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
-import type { Types as cstTypes } from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
+import type { Types as cstTypes } from '@qtimoph/tools';
 
 // This is for debugging purposes
 console.warn(

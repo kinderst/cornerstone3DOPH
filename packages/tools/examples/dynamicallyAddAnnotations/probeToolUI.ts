@@ -5,7 +5,7 @@ import {
 } from '@cornerstonejs/core';
 import type { Point2 } from '@cornerstonejs/core/types';
 import type { Point3 } from '@cornerstonejs/core/types/Point3';
-import { ProbeTool } from '@cornerstonejs/tools';
+import { ProbeTool } from '@qtimoph/tools';
 import { typeToIdMap, typeToStartIdMap } from './constants';
 
 function getInputValue(form: HTMLFormElement, inputId: string): number {

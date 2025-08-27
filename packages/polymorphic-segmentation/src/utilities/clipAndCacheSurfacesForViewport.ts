@@ -6,7 +6,7 @@ import {
   triggerEvent,
 } from '@cornerstonejs/core';
 
-import { Enums as ToolsEnums, utilities } from '@cornerstonejs/tools';
+import { Enums as ToolsEnums, utilities } from '@qtimoph/tools';
 import { registerPolySegWorker } from '../registerPolySegWorker';
 
 const workerManager = getWebWorkerManager();

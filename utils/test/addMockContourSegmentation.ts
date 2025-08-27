@@ -1,5 +1,5 @@
 import { utilities as csUtils } from '@cornerstonejs/core';
-import { annotation, utilities as cstUtils } from '@cornerstonejs/tools';
+import { annotation, utilities as cstUtils } from '@qtimoph/tools';
 
 export function addMockContourSegmentation({
   segmentationId,

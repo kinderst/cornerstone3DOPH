@@ -1,4 +1,4 @@
-import { utilities } from "@cornerstonejs/tools";
+import { utilities } from "@qtimoph/tools";
 import {
     generateRTSSFromAnnotations,
     generateRTSSFromSegmentations

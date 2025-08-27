@@ -1,5 +1,5 @@
-import * as cornerstoneTools from '@cornerstonejs/tools';
-import type { Types } from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
+import type { Types } from '@qtimoph/tools';
 
 const {
   LengthTool,

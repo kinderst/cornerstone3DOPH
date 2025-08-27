@@ -1,4 +1,4 @@
-import { segmentation } from '@cornerstonejs/tools';
+import { segmentation } from '@qtimoph/tools';
 
 import addDropDownToToolbar from './addDropdownToToolbar';
 

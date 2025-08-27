@@ -18,7 +18,7 @@ import {
   addToggleButtonToToolbar,
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import type { IStackViewport } from 'core/dist/esm/types';
 
 // This is for debugging purposes

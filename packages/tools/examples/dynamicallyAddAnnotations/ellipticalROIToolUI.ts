@@ -1,6 +1,6 @@
 import { getEnabledElementByViewportId, utilities } from '@cornerstonejs/core';
 import type { Point2, Point3 } from '@cornerstonejs/core/types';
-import { EllipticalROITool } from '@cornerstonejs/tools';
+import { EllipticalROITool } from '@qtimoph/tools';
 import { typeToIdMap } from './constants';
 
 function getInputValue(form: HTMLFormElement, inputId: string): number {
@@ -101,7 +101,10 @@ function addButtonListeners(form: HTMLFormElement): void {
 
       const convertPoint = (point: Point2): Point3 =>
         type === 'image'
-          ? (utilities.imageToWorldCoords(imageId || currentImageId, point) as Point3)
+          ? (utilities.imageToWorldCoords(
+              imageId || currentImageId,
+              point
+            ) as Point3)
           : viewport.canvasToWorld(point);
 
       const points: Point3[] = [

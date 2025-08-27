@@ -6,9 +6,9 @@ import {
   volumeLoader,
   metaData,
 } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import * as cornerstone from '@cornerstonejs/core';
-import { init as csToolsInit } from '@cornerstonejs/tools';
+import { init as csToolsInit } from '@qtimoph/tools';
 import { fakeVolumeLoader } from '../../test/testUtilsVolumeLoader';
 import {
   fakeImageLoader,

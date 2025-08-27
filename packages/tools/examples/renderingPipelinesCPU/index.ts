@@ -14,7 +14,7 @@ import {
   setTitleAndDescription,
   addDropdownToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 console.warn(
   'Click on index.ts to open source code for this example --------->'

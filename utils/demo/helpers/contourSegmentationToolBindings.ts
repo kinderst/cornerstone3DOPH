@@ -1,4 +1,4 @@
-import { Enums } from '@cornerstonejs/tools';
+import { Enums } from '@qtimoph/tools';
 
 const { MouseBindings, KeyboardBindings } = Enums;
 

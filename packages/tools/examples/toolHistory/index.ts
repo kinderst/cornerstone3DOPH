@@ -18,7 +18,7 @@ import {
   contourTools,
   addManipulationBindings,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 const { segmentation } = cornerstoneTools;
 const { MouseBindings } = cornerstoneTools.Enums;

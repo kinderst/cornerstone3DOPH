@@ -4,11 +4,7 @@ import {
   Enums,
   triggerEvent,
 } from '@cornerstonejs/core';
-import {
-  segmentation,
-  Enums as csToolsEnums,
-  utilities,
-} from '@cornerstonejs/tools';
+import { segmentation, Enums as csToolsEnums, utilities } from '@qtimoph/tools';
 import { registerInterpolationWorker } from '../registerWorker';
 
 type MorphologicalContourInterpolationOptions = {

@@ -1,6 +1,6 @@
 import type { Types } from '@cornerstonejs/core';
 import { cache, getEnabledElementByViewportId } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 import { computeSurfaceFromLabelmapSegmentation } from './surfaceComputationStrategies';
 import { createAndCacheSurfacesFromRaw } from './createAndCacheSurfacesFromRaw';

@@ -1,6 +1,6 @@
 import { Enums, RenderingEngine, imageLoader } from '@cornerstonejs/core';
 import * as cornerstone from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import {
   addManipulationBindings,
   createImageIdsAndCacheMetaData,

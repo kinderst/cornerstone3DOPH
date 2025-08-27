@@ -1,6 +1,6 @@
 import { expose } from 'comlink';
 import { utilities } from '@cornerstonejs/core';
-import { utilities as ToolsUtilities } from '@cornerstonejs/tools';
+import { utilities as ToolsUtilities } from '@qtimoph/tools';
 import vtkImageData from '@kitware/vtk.js/Common/DataModel/ImageData';
 import vtkDataArray from '@kitware/vtk.js/Common/Core/DataArray';
 import vtkPlane from '@kitware/vtk.js/Common/DataModel/Plane';

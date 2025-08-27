@@ -1,5 +1,5 @@
 import type { Types } from '@cornerstonejs/core';
-import { utilities } from '@cornerstonejs/tools';
+import { utilities } from '@qtimoph/tools';
 
 /**
  * Generate a convex hull from a contour by simplifying, smoothing, and computing the hull

@@ -28,7 +28,7 @@ import {
   destroy,
   segmentation,
   Enums as csToolsEnums,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 
 function setupTestEnvironment({
   renderingEngineId = utilities.uuidv4(),

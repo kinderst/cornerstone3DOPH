@@ -1,6 +1,6 @@
 import type { Types } from '@cornerstonejs/core';
 import { cache } from '@cornerstonejs/core';
-import { Enums, segmentation, utilities } from '@cornerstonejs/tools';
+import { Enums, segmentation, utilities } from '@qtimoph/tools';
 import { extractContourData } from './utils/extractContourData';
 
 import type { PolySegConversionOptions } from '../types';

@@ -63,6 +63,6 @@
   },
   "peerDependencies": {
     "@cornerstonejs/core": "^3.30.3",
-    "@cornerstonejs/tools": "^3.30.3"
+    "@qtimoph/tools": "^3.30.3"
   }
 }

@@ -10,7 +10,7 @@ import {
   setTitleAndDescription,
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import type { Types as CSToolsTypes } from '@cornerstonejs/tools';
+import type { Types as CSToolsTypes } from '@qtimoph/tools';
 import {
   LengthTool,
   HeightTool,
@@ -19,7 +19,7 @@ import {
   Enums as csToolsEnums,
   annotation,
   addTool,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 
 // This is for debugging purposes
 console.warn(

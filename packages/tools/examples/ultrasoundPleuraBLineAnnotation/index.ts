@@ -6,7 +6,7 @@ import {
   setTitleAndDescription,
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import WindowLevelTool from '../../src/tools/WindowLevelTool';
 import { downloadFanJpeg } from '../../src/tools/annotation/UltrasoundPleuraBLineTool/utils/fanExtraction';
 

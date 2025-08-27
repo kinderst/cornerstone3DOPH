@@ -125,7 +125,7 @@ module.exports = function (config) {
         },
         alias: {
           '@cornerstonejs/core': path.resolve('packages/core/src/index'),
-          '@cornerstonejs/tools': path.resolve('packages/tools/src/index'),
+          '@qtimoph/tools': path.resolve('packages/tools/src/index'),
         },
       },
     },

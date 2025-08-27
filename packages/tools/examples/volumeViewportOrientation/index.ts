@@ -11,7 +11,7 @@ import {
   Enums as csToolsEnums,
   ZoomTool,
   StackScrollTool,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

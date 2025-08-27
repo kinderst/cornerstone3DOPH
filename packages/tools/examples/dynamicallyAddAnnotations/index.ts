@@ -11,7 +11,7 @@ import {
   setTitleAndDescription,
   setCtTransferFunctionForVolumeActor,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import {
   AngleTool,
   ArrowAnnotateTool,
@@ -22,7 +22,7 @@ import {
   ProbeTool,
   RectangleROITool,
   SplineROITool,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 import { createToolUI } from './toolSpecificUI';
 import addDropDownToToolbar from '../../../../utils/demo/helpers/addDropdownToToolbar';
 import { STACK_VIEWPORT_ID, VOLUME_VIEWPORT_ID } from './constants';

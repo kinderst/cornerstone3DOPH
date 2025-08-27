@@ -5,7 +5,7 @@ import {
   annotation,
   ProbeTool,
   addTool,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 import ONNXSegmentationController from './ONNXSegmentationController';
 
 /**

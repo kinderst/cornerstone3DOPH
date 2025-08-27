@@ -11,7 +11,7 @@ import {
   createImageIdsAndCacheMetaData,
   setTitleAndDescription,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import { fillVolumeLabelmapWithMockData } from '../../../../utils/test/testUtils';
 import { SegmentationRepresentations } from '../../src/enums';
 import { triggerSegmentationDataModified } from '../../src/stateManagement/segmentation/triggerSegmentationEvents';

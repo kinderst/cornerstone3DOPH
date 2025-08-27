@@ -1,11 +1,11 @@
 import type { Types } from '@cornerstonejs/core';
-import type { Types as csToolTypes } from '@cornerstonejs/tools';
+import type { Types as csToolTypes } from '@qtimoph/tools';
 import {
   Enums,
   getRenderingEngine,
   RenderingEngine,
 } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import {
   addButtonToToolbar,
   addDropdownToToolbar,

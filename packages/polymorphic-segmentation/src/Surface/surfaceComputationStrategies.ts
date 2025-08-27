@@ -1,11 +1,11 @@
 import type { Types } from '@cornerstonejs/core';
 import type { PolySegConversionOptions } from '../types';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 import { convertContourToSurface } from './convertContourToSurface';
 import { createAndCacheSurfacesFromRaw } from './createAndCacheSurfacesFromRaw';
 import { convertLabelmapToSurface } from './convertLabelmapToSurface';
-import type { Types as ToolsTypes } from '@cornerstonejs/tools';
+import type { Types as ToolsTypes } from '@qtimoph/tools';
 
 const { getUniqueSegmentIndices } = cornerstoneTools.utilities.segmentation;
 const { getSegmentation } = cornerstoneTools.segmentation.state;

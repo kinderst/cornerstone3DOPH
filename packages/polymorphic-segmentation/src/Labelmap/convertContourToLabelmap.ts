@@ -11,8 +11,8 @@ import {
   triggerEvent,
   eventTarget,
 } from '@cornerstonejs/core';
-import type { Types as ToolsTypes } from '@cornerstonejs/tools';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import type { Types as ToolsTypes } from '@qtimoph/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import type { PolySegConversionOptions } from '../types';
 
 const { WorkerTypes } = cornerstoneTools.Enums;

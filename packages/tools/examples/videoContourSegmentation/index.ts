@@ -1,6 +1,6 @@
 import type { Types } from '@cornerstonejs/core';
 import { Enums, RenderingEngine } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import {
   addButtonToToolbar,
   addSliderToToolbar,
@@ -16,7 +16,7 @@ import {
   addSegmentIndexDropdown,
   contourTools,
 } from '../../../../utils/demo/helpers';
-import type { Types as cstTypes } from '@cornerstonejs/tools';
+import type { Types as cstTypes } from '@qtimoph/tools';
 
 // This is for debugging purposes
 console.warn(

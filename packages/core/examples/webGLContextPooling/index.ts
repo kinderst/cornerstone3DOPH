@@ -11,8 +11,8 @@ import {
   initProviders,
   initVolumeLoader,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
-import { init as csToolsInit } from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
+import { init as csToolsInit } from '@qtimoph/tools';
 import cornerstoneDICOMImageLoader from '@cornerstonejs/dicom-image-loader';
 
 const {

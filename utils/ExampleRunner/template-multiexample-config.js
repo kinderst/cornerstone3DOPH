@@ -106,7 +106,7 @@ module.exports = {
   resolve: {
     alias: {
       '@cornerstonejs/core': '${csRenderBasePath.replace(/\\/g, '/')}',
-      '@cornerstonejs/tools': '${csToolsBasePath.replace(/\\/g, '/')}',
+      '@qtimoph/tools': '${csToolsBasePath.replace(/\\/g, '/')}',
       '@cornerstonejs/ai': '${csAiBasePath.replace(/\\/g, '/')}',
       '@cornerstonejs/polymorphic-segmentation': '${csPolymorphicSegmentationBasePath.replace(
         /\\/g,
@@ -116,7 +116,7 @@ module.exports = {
         /\\/g,
         '/'
       )}',
-      '@cornerstonejs/adapters': '${csAdaptersBasePath.replace(/\\/g, '/')}',
+      '@qtimoph/adapters': '${csAdaptersBasePath.replace(/\\/g, '/')}',
       '@cornerstonejs/dicom-image-loader': '${csDICOMImageLoaderDistPath.replace(
         /\\/g,
         '/'

@@ -6,7 +6,7 @@ import {
   setUseCPURendering,
   volumeLoader,
 } from '@cornerstonejs/core';
-import * as csTools from '@cornerstonejs/tools';
+import * as csTools from '@qtimoph/tools';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

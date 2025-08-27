@@ -14,8 +14,8 @@ import {
     addButtonToToolbar,
     createImageIdsAndCacheMetaData
 } from "../../../../utils/demo/helpers";
-import * as cornerstoneTools from "@cornerstonejs/tools";
-import { adaptersSEG, helpers } from "@cornerstonejs/adapters";
+import * as cornerstoneTools from "@qtimoph/tools";
+import { adaptersSEG, helpers } from "@qtimoph/adapters";
 import dcmjs from "dcmjs";
 
 const { downloadDICOMData } = helpers;

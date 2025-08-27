@@ -12,7 +12,7 @@ import {
   addDropdownToToolbar,
   getLocalUrl,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 // This is for debugging purposes
 console.warn(
@@ -33,7 +33,7 @@ import {
   ZoomTool,
   ToolGroupManager,
   Enums as csToolsEnums,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 
 const { MouseBindings } = csToolsEnums;
 

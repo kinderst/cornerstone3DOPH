@@ -11,7 +11,7 @@ import {
   getRenderingEngine,
   eventTarget,
 } from '@cornerstonejs/core';
-import { Enums as toolsEnums } from '@cornerstonejs/tools';
+import { Enums as toolsEnums } from '@qtimoph/tools';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
@@ -25,7 +25,7 @@ import {
 } from '../../../../utils/demo/helpers';
 
 import vtkCellPicker from '@kitware/vtk.js/Rendering/Core/CellPicker';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 import vtkSphereSource from '@kitware/vtk.js/Filters/Sources/SphereSource';
 import vtkMapper from '@kitware/vtk.js/Rendering/Core/Mapper';

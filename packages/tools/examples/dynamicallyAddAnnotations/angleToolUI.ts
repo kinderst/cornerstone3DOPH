@@ -1,6 +1,6 @@
 import { getEnabledElementByViewportId, utilities } from '@cornerstonejs/core';
 import type { Point2 } from '@cornerstonejs/core/types';
-import { AngleTool } from '@cornerstonejs/tools';
+import { AngleTool } from '@qtimoph/tools';
 import { typeToIdMap, typeToStartIdMap, typeToEndIdMap } from './constants';
 
 function getInputValue(form: HTMLFormElement, inputId: string): number {

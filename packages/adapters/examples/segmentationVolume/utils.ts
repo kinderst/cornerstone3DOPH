@@ -1,7 +1,7 @@
 import * as cornerstone from "@cornerstonejs/core";
-import * as cornerstoneTools from "@cornerstonejs/tools";
+import * as cornerstoneTools from "@qtimoph/tools";
 import * as cornerstoneDicomImageLoader from "@cornerstonejs/dicom-image-loader";
-import * as cornerstoneAdapters from "@cornerstonejs/adapters";
+import * as cornerstoneAdapters from "@qtimoph/adapters";
 import dcmjs from "dcmjs";
 
 const { cache, imageLoader, metaData } = cornerstone;

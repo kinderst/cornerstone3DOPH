@@ -15,7 +15,7 @@ import {
   addButtonToToolbar,
   addManipulationBindings,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import * as labelmapInterpolation from '@cornerstonejs/labelmap-interpolation';
 
 // This is for debugging purposes

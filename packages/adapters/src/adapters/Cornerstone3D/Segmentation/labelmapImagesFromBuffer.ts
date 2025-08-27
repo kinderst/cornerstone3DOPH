@@ -1,5 +1,5 @@
 import { eventTarget, imageLoader, triggerEvent } from "@cornerstonejs/core";
-import { utilities as cstUtils } from "@cornerstonejs/tools";
+import { utilities as cstUtils } from "@qtimoph/tools";
 import { data as dcmjsData, normalizers, utilities } from "dcmjs";
 import ndarray from "ndarray";
 import checkOrientation from "../../helpers/checkOrientation";

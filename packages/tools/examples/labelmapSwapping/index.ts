@@ -13,7 +13,7 @@ import {
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
 import { fillVolumeLabelmapWithMockData } from '../../../../utils/test/testUtils';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import { removeLabelmapRepresentation } from '../../src/stateManagement/segmentation';
 import { triggerSegmentationDataModified } from '../../src/stateManagement/segmentation/triggerSegmentationEvents';
 

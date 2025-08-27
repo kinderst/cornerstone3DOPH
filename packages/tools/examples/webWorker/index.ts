@@ -4,7 +4,7 @@ import {
   Enums,
   getWebWorkerManager,
 } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,

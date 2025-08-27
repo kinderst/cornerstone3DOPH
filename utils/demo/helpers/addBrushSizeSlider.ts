@@ -1,4 +1,4 @@
-import { utilities as csUtilities } from '@cornerstonejs/tools';
+import { utilities as csUtilities } from '@qtimoph/tools';
 
 import { configElement } from './createElement';
 import addSliderToToolbar from './addSliderToToolbar';

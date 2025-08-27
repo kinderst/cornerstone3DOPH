@@ -6,13 +6,13 @@ import {
   triggerEvent,
   cache,
 } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
-import type { Types as cstTypes } from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
+import type { Types as cstTypes } from '@qtimoph/tools';
 
 import {
   segmentation as cstSegmentation,
   LabelmapBaseTool,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 import { Events as aiEvents } from './enums';
 
 const { strategies } = cstSegmentation;

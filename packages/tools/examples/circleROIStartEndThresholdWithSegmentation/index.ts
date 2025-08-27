@@ -14,7 +14,7 @@ import {
   setCtTransferFunctionForVolumeActor,
   getLocalUrl,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 // This is for debugging purposes
 console.warn(
@@ -243,7 +243,6 @@ async function run() {
     throttleTimeout: 100,
     /* Simplified handles */
     simplified: true,
-
   });
 
   toolGroup.setToolActive(CircleROIStartEndThresholdTool.toolName, {

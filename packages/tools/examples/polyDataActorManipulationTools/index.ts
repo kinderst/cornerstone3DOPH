@@ -1,9 +1,12 @@
 import type { Types } from '@cornerstonejs/core';
-import { RenderingEngine, Enums } from '@cornerstonejs/core';
+import {
+  RenderingEngine,
+  Enums,
+  init as csRenderInit,
+} from '@cornerstonejs/core';
 import { setTitleAndDescription } from '../../../../utils/demo/helpers';
-import { init as csRenderInit } from '@cornerstonejs/core';
-import { init as csToolsInit } from '@cornerstonejs/tools';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import { init as csToolsInit } from '@qtimoph/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 import vtkActor from '@kitware/vtk.js/Rendering/Core/Actor';
 import vtkSphereSource from '@kitware/vtk.js/Filters/Sources/SphereSource';

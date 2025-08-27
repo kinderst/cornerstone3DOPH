@@ -11,7 +11,7 @@ import {
   addDropdownToToolbar,
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import dicomImageLoader from '@cornerstonejs/dicom-image-loader';
 
 // This is for debugging purposes

@@ -8,7 +8,7 @@ import {
   ToolGroupManager,
   Enums as csToolsEnums,
   segmentation,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 import {
   RenderingEngine,
   Enums,

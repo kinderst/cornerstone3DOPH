@@ -1,7 +1,7 @@
 import { api } from "dicomweb-client";
 
 import * as cornerstone from "@cornerstonejs/core";
-import * as cornerstoneTools from "@cornerstonejs/tools";
+import * as cornerstoneTools from "@qtimoph/tools";
 
 import { dicomMap } from "./demo";
 
@@ -16,7 +16,7 @@ import {
     setTitleAndDescription
 } from "../../../../utils/demo/helpers";
 
-import { BrushTool } from "@cornerstonejs/tools";
+import { BrushTool } from "@qtimoph/tools";
 
 // This is for debugging purposes
 console.warn(

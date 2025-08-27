@@ -15,7 +15,7 @@ import {
   addButtonToToolbar,
 } from '../../../../utils/demo/helpers';
 import * as cornerstone from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import { fillVolumeLabelmapWithMockData } from '../../../../utils/test/fillVolumeLabelmapWithMockData';
 
 // This is for debugging purposes

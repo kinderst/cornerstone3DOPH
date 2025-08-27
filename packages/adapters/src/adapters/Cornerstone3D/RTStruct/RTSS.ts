@@ -1,4 +1,4 @@
-import { utilities } from "@cornerstonejs/tools";
+import { utilities } from "@qtimoph/tools";
 import dcmjs from "dcmjs";
 import getPatientModule from "./utilities/getPatientModule";
 import getReferencedFrameOfReferenceSequence from "./utilities/getReferencedFrameOfReferenceSequence";

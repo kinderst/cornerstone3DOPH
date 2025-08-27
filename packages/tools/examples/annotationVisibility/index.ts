@@ -27,7 +27,7 @@ import {
   Enums as csToolsEnums,
   annotation,
   addTool,
-} from '@cornerstonejs/tools';
+} from '@qtimoph/tools';
 
 // This is for debugging purposes
 console.warn(

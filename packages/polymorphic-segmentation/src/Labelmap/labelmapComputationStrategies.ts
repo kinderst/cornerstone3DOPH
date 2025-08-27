@@ -1,8 +1,8 @@
 import type { Types } from '@cornerstonejs/core';
 import { volumeLoader, imageLoader, VolumeViewport } from '@cornerstonejs/core';
-import { utilities } from '@cornerstonejs/tools';
-import * as cornerstoneTools from '@cornerstonejs/tools';
-import type { Types as ToolsTypes } from '@cornerstonejs/tools';
+import { utilities } from '@qtimoph/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
+import type { Types as ToolsTypes } from '@qtimoph/tools';
 import {
   convertContourToStackLabelmap,
   convertContourToVolumeLabelmap,

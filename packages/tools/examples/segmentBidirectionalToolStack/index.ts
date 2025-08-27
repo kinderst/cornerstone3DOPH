@@ -1,6 +1,6 @@
 import type { Types } from '@cornerstonejs/core';
 import { RenderingEngine, Enums, imageLoader } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 import {
   initDemo,

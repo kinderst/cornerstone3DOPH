@@ -1,5 +1,5 @@
 {
-  "name": "@kinderst/tools",
+  "name": "@qtimoph/tools",
   "version": "3.30.3-oph.0",
   "description": "Cornerstone3D Tools",
   "types": "./dist/esm/index.d.ts",

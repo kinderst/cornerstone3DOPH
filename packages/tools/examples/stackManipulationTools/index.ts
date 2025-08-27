@@ -6,9 +6,9 @@ import {
   setTitleAndDescription,
   addDropdownToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import { KeyboardBindings } from '../../src/enums';
-import { StackScrollOutOfBoundsEvent } from 'core/src/types/EventTypes';
+import type { StackScrollOutOfBoundsEvent } from 'core/src/types/EventTypes';
 
 // This is for debugging purposes
 console.warn(

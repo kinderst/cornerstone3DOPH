@@ -2,7 +2,7 @@ import type { Types } from '@cornerstonejs/core';
 import { Enums, geometryLoader } from '@cornerstonejs/core';
 import type { RawSurfacesData } from './surfaceComputationStrategies';
 import type { PolySegConversionOptions } from '../types';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 const { getSegmentation } = cornerstoneTools.segmentation.state;
 const { getSegmentIndexColor } = cornerstoneTools.segmentation.config.color;

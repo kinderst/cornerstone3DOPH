@@ -13,7 +13,7 @@ export default [
             "dcmjs",
             "gl-matrix",
             "ndarray",
-            "@cornerstonejs/tools",
+            "@qtimoph/tools",
             "@cornerstonejs/core",
             "@kitware/vtk.js"
         ],

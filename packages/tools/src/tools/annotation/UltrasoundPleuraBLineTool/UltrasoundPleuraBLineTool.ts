@@ -80,7 +80,7 @@ type FilterFunction = (imageId: string) => boolean;
  * @example
  * ```javascript
  * // Import necessary modules from Cornerstone Tools
- * import { UltrasoundPleuraBLineAnnotationTool, ToolGroupManager, Enums, addTool } from '@cornerstonejs/tools';
+ * import { UltrasoundPleuraBLineAnnotationTool, ToolGroupManager, Enums, addTool } from '@qtimoph/tools';
 import { canvasCoordinates } from '../../utilities/math/circle/_types';
 import { getUnknownVolumeLoaderSchema } from '../../../../core/src/loaders/volumeLoader';
 import { deriveFanGeometry } from './utils/deriveFanGeometry';

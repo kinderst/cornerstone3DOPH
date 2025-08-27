@@ -1,5 +1,5 @@
 import { getEnabledElementByViewportId } from '@cornerstonejs/core';
-import { LabelmapBaseTool } from '@cornerstonejs/tools';
+import { LabelmapBaseTool } from '@qtimoph/tools';
 import ONNXSegmentationController from './ONNXSegmentationController';
 
 /**

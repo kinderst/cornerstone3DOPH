@@ -1,4 +1,4 @@
-import { Enums as csToolsEnums, ToolGroupManager } from '@cornerstonejs/tools';
+import { Enums as csToolsEnums, ToolGroupManager } from '@qtimoph/tools';
 const { MouseBindings } = csToolsEnums;
 
 import type { configElement } from './createElement';

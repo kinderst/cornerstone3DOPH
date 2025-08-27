@@ -16,7 +16,7 @@ import {
   setPetTransferFunctionForVolumeActor,
   getLocalUrl,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 // This is for debugging purposes
 console.warn(
@@ -372,7 +372,7 @@ async function run() {
     showTextBox: true,
     storePointData: true,
     /*Set a custom wait time */
-    throttleTimeout: 100
+    throttleTimeout: 100,
   });
 
   toolGroup.setToolActive(RectangleROIStartEndThresholdTool.toolName, {

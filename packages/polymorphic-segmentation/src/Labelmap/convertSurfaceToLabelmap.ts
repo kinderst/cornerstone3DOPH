@@ -6,8 +6,8 @@ import {
   getWebWorkerManager,
   triggerEvent,
 } from '@cornerstonejs/core';
-import * as cornerstoneTools from '@cornerstonejs/tools';
-import type { Types as ToolsTypes } from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
+import type { Types as ToolsTypes } from '@qtimoph/tools';
 
 const { WorkerTypes } = cornerstoneTools.Enums;
 

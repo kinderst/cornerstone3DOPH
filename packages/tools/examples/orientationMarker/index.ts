@@ -12,10 +12,10 @@ import {
   createImageIdsAndCacheMetaData,
   setTitleAndDescription,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import addDropDownToToolbar from '../../../../utils/demo/helpers/addDropdownToToolbar';
 import setPetTransferFunction from '../../../../utils/demo/helpers/setPetTransferFunctionForVolumeActor';
-import { VolumeRotateTool } from '@cornerstonejs/tools';
+import { VolumeRotateTool } from '@qtimoph/tools';
 
 async function getImageStacks() {
   const wadoRsRoot1 = 'https://d14fa38qiwhyfd.cloudfront.net/dicomweb';

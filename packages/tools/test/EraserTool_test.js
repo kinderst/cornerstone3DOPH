@@ -1,7 +1,7 @@
 import * as cornerstone3D from '@cornerstonejs/core';
 import * as csTools3d from '../src/index';
 import * as testUtils from '../../../utils/test/testUtils';
-import { EraserTool, LengthTool } from '@cornerstonejs/tools';
+import { EraserTool, LengthTool } from '@qtimoph/tools';
 import { triggerAnnotationAddedForElement } from '../src/stateManagement/annotation/helpers/state';
 
 const {

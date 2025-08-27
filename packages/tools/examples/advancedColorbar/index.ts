@@ -7,7 +7,7 @@ import {
   volumeLoader,
   getRenderingEngine,
 } from '@cornerstonejs/core';
-import { utilities as cstUtils } from '@cornerstonejs/tools';
+import { utilities as cstUtils } from '@qtimoph/tools';
 import {
   initDemo,
   createImageIdsAndCacheMetaData,
@@ -16,7 +16,7 @@ import {
   setTitleAndDescription,
   addDropdownToToolbar,
 } from '../../../../utils/demo/helpers';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 
 const { ViewportColorbar } = cstUtils.voi.colorbar;
 const { ColorbarRangeTextPosition } = cstUtils.voi.colorbar.Enums;

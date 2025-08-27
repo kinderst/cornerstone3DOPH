@@ -6,7 +6,7 @@ import {
   setUseCPURendering,
 } from '@cornerstonejs/core';
 import cornerstoneDICOMImageLoader from '@cornerstonejs/dicom-image-loader';
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import htmlSetup from '../local/htmlSetup';
 import uids from '../local/uids';
 

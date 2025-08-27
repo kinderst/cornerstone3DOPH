@@ -609,14 +609,26 @@ export default class SegmentationStateManager {
 
   // OPH Fix: Change function signature
   // getLabelmapImageIdsForImageId(imageId: string, segmentationId: string) {
-  getLabelmapImageIdsForImageId(imageId: string, segmentationId: string, imageIdIdx: number) {
+  getLabelmapImageIdsForImageId(
+    imageId: string,
+    segmentationId: string,
+    imageIdIdx: number
+  ) {
     const key = this._generateMapKey({
       segmentationId,
       referenceImageId: imageId,
     });
     // OPH Fix: OPH images return all imgs, get only correct index
     // return this._labelmapImageIdReferenceMap.get(key);
-    return [this._labelmapImageIdReferenceMap.get(key)[imageIdIdx]];
+    const labelmapImageIdReferenceMapArr =
+      this._labelmapImageIdReferenceMap.get(key);
+    if (labelmapImageIdReferenceMapArr.length > imageIdIdx) {
+      // If it is a list of all the imageIds, only get one that is current
+      return [labelmapImageIdReferenceMapArr[imageIdIdx]];
+    } else {
+      // Otherwise default to original behavior
+      return labelmapImageIdReferenceMapArr;
+    }
   }
 
   /**
@@ -640,7 +652,11 @@ export default class SegmentationStateManager {
     const referenceImageId = stackViewport.getCurrentImageId();
     // OPH Fix: Get the frame index
     const referenceImageIndex = stackViewport.getCurrentImageIdIndex();
-    return this.getLabelmapImageIdsForImageId(referenceImageId, segmentationId, referenceImageIndex);
+    return this.getLabelmapImageIdsForImageId(
+      referenceImageId,
+      segmentationId,
+      referenceImageIndex
+    );
   }
 
   /**

@@ -1,5 +1,5 @@
-import type { Types as ToolsTypes } from '@cornerstonejs/tools';
-import { Enums, segmentation, utilities } from '@cornerstonejs/tools';
+import type { Types as ToolsTypes } from '@qtimoph/tools';
+import { Enums, segmentation, utilities } from '@qtimoph/tools';
 
 type RepresentationsData = ToolsTypes.RepresentationsData;
 

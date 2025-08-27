@@ -1,4 +1,4 @@
-import * as cornerstoneTools from '@cornerstonejs/tools';
+import * as cornerstoneTools from '@qtimoph/tools';
 import type { ToolBinding } from './addManipulationBindings';
 
 const {
