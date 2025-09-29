@@ -1386,12 +1386,15 @@ export function getImageIdOfSourceImageBySourceImageSequence(
 
     if (ReferencedFrameNumber !== undefined) {
         if (baseImageId.includes("frames/")) {
-            // OPH Fix: Return only frames/1, only support single frame
-            // return baseImageId.replace(
-            //     /frames\/\d+/,
-            //     `frames/${ReferencedFrameNumber}`
-            // );
-            return baseImageId.replace(/frames\/\d+/, `frames/1`);
+            // OPH Fix: Return only frames/1 if is single-frame
+            if (baseImageId.endsWith("frames/1")) {
+                return baseImageId.replace(/frames\/\d+/, `frames/1`);
+            } else {
+                return baseImageId.replace(
+                    /frames\/\d+/,
+                    `frames/${ReferencedFrameNumber}`
+                );
+            }
         } else if (baseImageId.includes("frame=")) {
             return baseImageId.replace(
                 /frame=\d+/,
@@ -1399,9 +1402,9 @@ export function getImageIdOfSourceImageBySourceImageSequence(
             );
         } else {
             if (baseImageId.includes("wadors:")) {
-                // OPH Fix: Return only frames/1, only support single frame
-                // return `${baseImageId}/frames/${ReferencedFrameNumber}`;
-                return `${baseImageId}/frames/1`;
+                return `${baseImageId}/frames/${ReferencedFrameNumber}`;
+                // OPH Fix: TODO: Consider equivalent to above
+                // return `${baseImageId}/frames/1`;
             } else {
                 return `${baseImageId}?frame=${ReferencedFrameNumber - 1}`;
             }
