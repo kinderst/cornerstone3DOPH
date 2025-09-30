@@ -1403,7 +1403,7 @@ export function getImageIdOfSourceImageBySourceImageSequence(
         } else {
             if (baseImageId.includes("wadors:")) {
                 return `${baseImageId}/frames/${ReferencedFrameNumber}`;
-                // OPH Fix: TODO: Consider equivalent to above
+                // OPH Fix: TODO: Consider equivalent for above
                 // return `${baseImageId}/frames/1`;
             } else {
                 return `${baseImageId}?frame=${ReferencedFrameNumber - 1}`;
